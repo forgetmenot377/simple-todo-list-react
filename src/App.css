@@ -23,7 +23,7 @@ form {
     justify-content: center;
     align-items: center;
 }
-#delete-completed {
+.delete-completed {
     padding: 0.5rem;
     font-size: 1.8rem;
     border: none;
@@ -46,6 +46,12 @@ form button {
     background: #f7fffe;
     cursor: pointer;
     transition: all 0.3s ease;
+}
+.todo-button {
+ display: inline-block;
+    verticalAlign: middle;
+    color: orangered;
+    background: white;
 }
 form button:hover {
     background: #ff6f47;
